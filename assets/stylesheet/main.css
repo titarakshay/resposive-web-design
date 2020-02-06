@@ -265,4 +265,10 @@ small{
        max-width: 90%;
         margin: 0 auto;
     }
+    .map{
+        padding: 12px;
+    }
+    .table-sec{
+        padding: 16px;
+    }
 }
