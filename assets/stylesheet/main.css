@@ -242,15 +242,16 @@ small{
         width: 100%;
     }
     .para{
-        width: 100%;
+        max-width: 95%;
         flex-wrap: wrap;
     }
     .para-div{
         padding: 16px 0;   
     }
     .address{
-        width: 100%;
+        max-width: 100%;
         flex-wrap: wrap;
+        display: block;
     }
     .header{
         flex-wrap: wrap;
@@ -258,5 +259,10 @@ small{
     }
     .location{
         text-align: center;
+        padding: 12px 0;
+    }
+    .form{
+       max-width: 90%;
+        margin: 0 auto;
     }
 }
