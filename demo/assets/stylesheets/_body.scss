@@ -1,0 +1,48 @@
+h2{
+    font-size: 52px;
+    font-weight: 500;
+}
+.hero-text ,.para-text{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    font-size: 0;
+}
+.article{
+    width: 33%;
+    margin: 1%;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 28px;
+}
+.button{
+    padding: 20px 32px;
+    font-size: 22px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #3E5A99;
+     
+}
+.img-gallery{
+    width: 24%;
+    margin: 1%;
+    align-self: baseline;
+}
+.foot{
+    border-top: 1px solid gray;
+}
+.fab{
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 4px;
+    margin-top: 30px;
+    margin-left: 8px;
+}

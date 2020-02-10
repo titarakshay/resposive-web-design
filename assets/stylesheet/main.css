@@ -31,8 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1.5;
 }
-ol, ul {
-	list-style: none;
+ol, ul  , a,li{
+    list-style: none;
+    text-decoration: none;
 }
 blockquote, q {
 	quotes: none;
@@ -77,7 +78,10 @@ table {
 .logo{
     width: 20%;
 }
-.nav-links{
+.ham #toggle{
+    display: none;
+}
+.nav-links li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -239,6 +243,7 @@ th{
 small{
     color: white;
 }
+
 @media all and (max-width:768px){
     .img-div{
         flex-wrap: wrap;
@@ -275,4 +280,43 @@ small{
     .table-sec{
         padding: 16px;
     }
+    .logo {
+        z-index: 999;
+    }
+    .nav-links {
+        display: none;
+        position: absolute;
+        background-color: black;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding-top: 120px;
+    }
+      
+    .nav-menu li {
+        margin: 32px 0;
+    }
+    
+    a {
+        color: #351b1b;
+    }
+    
+    .logo {
+    z-index: 999;
+    }
+    
+    .ham {
+    font-size: 32px;
+    color: black;
+    display: inline-block;
+    z-index: 999;
+    }
+    
+    #toggle:checked ~ .nav-menu {
+    display: inline-block;
+    }
 }
+
+  

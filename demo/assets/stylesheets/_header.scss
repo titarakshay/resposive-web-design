@@ -1,0 +1,32 @@
+.header {   
+    padding: 16px 0;
+  }
+.bg-color{
+    background-color:#334467 ;
+}  
+h1{
+    font-size: 56px;
+    color: white;
+    font-weight: 700;
+}
+.nav-menu {
+      
+    li {
+      margin-left: 32px;
+    }
+    a {
+      font-size: 28px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      &:hover {
+        color: red;
+      }
+    }
+}
+.ham {
+  display: none;
+}
+.checkbox{
+  display: none;
+}
